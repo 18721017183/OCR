@@ -136,4 +136,3 @@ for idx in range(generate_image_num):
     with open(label_txt,'a') as f:
         line = str(idx)+'#1_.jpg' + ' ' + words + '\n'
         f.write(line)
-
