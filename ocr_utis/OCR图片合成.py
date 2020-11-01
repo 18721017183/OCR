@@ -117,7 +117,7 @@ for idx in range(generate_image_num):
     # 随机灰度的背景
     rate = np.random.randint(60, 255)
     print('rate',rate)
-    re,image2 = cv.threshold(src=image2,thresh=240,maxval=rate,type=cv.THRESH_BINARY)
+    re,image2 = cv.threshold(src=image2,thresh=100,maxval=rate,type=cv.THRESH_BINARY)
     print('rate',re)
 
     #图片及标签保存
