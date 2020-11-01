@@ -40,7 +40,7 @@ with open(path2,'r') as f:
 """根据字典，将列表中的值对应到字典中"""
 all_str = []
 for key in dic2:
-    # str_tmp = key + '.jpg'
+    # str_tmp = key + '.jpg'  #文本生成字符时使用
     str_tmp = key
     str_dic2 = dic2[key]
     for char1 in str_dic2:
